@@ -247,5 +247,6 @@ def get_train_test_data(weight):
 simclr = SimCLR(device)
 print('...Training...')
 simclr.train()
+# for commit
 
 

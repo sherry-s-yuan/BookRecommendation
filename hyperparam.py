@@ -16,3 +16,4 @@ use_cosine_similarity = True
 metric_weight_name = ['same_author', 'same_rating_children', 'same_rating_comics', 'same_rating_fantasy', 'same_rating_history', 'same_rating_mystery', 'same_rating_poetry', 'same_rating_romance', 'same_rating_young_adult', 'same_shelf', 'similar_pair']
 metric_weight = [3,1,1,7,1,8,1,2,2,2,4]
 metric_weight = (np.array(metric_weight) / np.sum(metric_weight)).tolist()
+# for commit

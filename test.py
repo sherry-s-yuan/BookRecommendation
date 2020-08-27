@@ -249,6 +249,7 @@ with open('sim_pair_scores.csv', 'w') as w:
 # dist = pairwise_dist(emb[isbn2ind[isbn]])
 # print(np.argsort(dist))
 
+# for commit
 
 
 '''
